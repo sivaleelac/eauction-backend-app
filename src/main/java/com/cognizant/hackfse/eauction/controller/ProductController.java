@@ -32,7 +32,7 @@ import com.cognizant.hackfse.eauction.service.JWTTokenProvider;
 import com.cognizant.hackfse.eauction.service.SellerProductService;
 
 @RestController
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin(origins = {"http://localhost:3000", "http://react-eauction-aws-hosting.s3.amazonaws.com", "https://react-eauction-aws-hosting.s3.amazonaws.com"})
 public class ProductController {
 	private static final Logger log = LoggerFactory.getLogger(ProductController.class);
 

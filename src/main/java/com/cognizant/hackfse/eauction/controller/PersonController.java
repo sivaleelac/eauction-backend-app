@@ -36,7 +36,7 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 
 @RestController
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin(origins = {"http://localhost:3000", "http://react-eauction-aws-hosting.s3.amazonaws.com", "https://react-eauction-aws-hosting.s3.amazonaws.com"})
 public class PersonController {
 	private static final Logger log = LoggerFactory.getLogger(PersonController.class);
 
