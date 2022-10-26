@@ -24,7 +24,7 @@ import com.cognizant.hackfse.eauction.service.BidderService;
 import com.cognizant.hackfse.eauction.service.JWTTokenProvider;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:3000", "http://react-eauction-aws-hosting.s3.amazonaws.com", "https://react-eauction-aws-hosting.s3.amazonaws.com"})
+@CrossOrigin(origins = {"http://localhost:3000", "http://react-eauction-aws-hosting.s3.amazonaws.com", "https://react-eauction-aws-hosting.s3.amazonaws.com", "http://d3cwgollxkuapo.cloudfront.net", "https://d3cwgollxkuapo.cloudfront.net"})
 public class BuyerBidController {
 	private static final Logger log = LoggerFactory.getLogger(BuyerBidController.class);
 
