@@ -12,7 +12,7 @@ import com.cognizant.hackfse.eauction.model.ProductBidder;
 import com.cognizant.hackfse.eauction.service.SellerProductService;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:3000", "http://react-eauction-aws-hosting.s3.amazonaws.com", "https://react-eauction-aws-hosting.s3.amazonaws.com"})
+@CrossOrigin(origins = {"http://localhost:3000", "http://react-eauction-aws-hosting.s3.amazonaws.com", "https://react-eauction-aws-hosting.s3.amazonaws.com", "http://d3cwgollxkuapo.cloudfront.net", "https://d3cwgollxkuapo.cloudfront.net"})
 public class SellerBidController {
 
 	@Autowired
